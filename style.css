@@ -1,8 +1,52 @@
 
+body{
+    background: #e0e5ec;
+
+}
+.card{
+    background: #e0e5ec;
+    box-shadow:
+   -7px -7px 20px 0px #fff9,
+   -4px -4px 5px 0px #fff9,
+   7px 7px 20px 0px #0002,
+   4px 4px 5px 0px #0001,
+   inset 0px 0px 0px 0px #fff9,
+   inset 0px 0px 0px 0px #0001,
+   inset 0px 0px 0px 0px #fff9,        inset 0px 0px 0px 0px #0001;
+ transition:box-shadow 0.6s cubic-bezier(.79,.21,.06,.81);
+   border-radius: 10px;
+   border: none;
+}
 .fiverr_form .my-3{
     flex: 1;
 }
 .fiverr_form{
     gap: 10px;
+}
+.fiverr_form input{
+    background: #e0e5ec;
+    box-shadow:
+   -7px -7px 20px 0px #fff9,
+   -4px -4px 5px 0px #fff9,
+   7px 7px 20px 0px #0002,
+   4px 4px 5px 0px #0001,
+   inset 0px 0px 0px 0px #fff9,
+   inset 0px 0px 0px 0px #0001,
+   inset 0px 0px 0px 0px #fff9,        inset 0px 0px 0px 0px #0001;
+ transition:box-shadow 0.6s cubic-bezier(.79,.21,.06,.81);
+   border-radius: 10px;
+   border: none !important;
+}
+.fiverr_form input:focus{
+    outline: none !important;
+}
+.card-body h1{
+    font-size: 20px;
+    font-weight: 900px;
+    text-align: center;
+}
+.form-control:focus {
+    outline: none !important;
+    background: #e0e5ec !important;
 }
 
